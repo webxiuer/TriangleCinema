@@ -1,9 +1,13 @@
 # TriangleCinema
 Triamgle 
 项目名称：Triangle电影
+
 项目地址：https://triangle.applinzi.com/ 
+
 Git 仓库：https://github.com/webxiuer/TriangleCinema
+
 项目技术：CSS3+DOM+BOM+sessionStorage+SQL+Ajax
+
 项目介绍：triangle电影是一个主打电影订票的生活类网站，展示热门电影，供用户浏览喜欢的电影选座订票等
 功能描述：
 1. 主页采用经典轮播图+侧边栏布局, 基本纯原生实现页面动画效果等；
