@@ -1,0 +1,236 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+._body {
+  width: 1210px;
+  margin: auto;
+}
+
+.introduce {
+  width: 100%;
+  height: 272px;
+  padding: 10px;
+  display: flex;
+  background: #000;
+  margin-top: 20px;
+}
+
+.introduce_div {
+  width: 200px;
+}
+
+.introduce>div>img {
+  width: 183px;
+  height: 252px;
+}
+
+.introduce>div {
+  margin-right: 10px;
+}
+
+.introduce_title>h4 {
+  font-size: 22px;
+  color: #fff;
+}
+
+/*title的字体颜色后续改*/
+.introduce_title>p {
+  font-size: 15px;
+  margin: 10px;
+  color: #fff;
+}
+
+.introduce_title>p:last-child {
+  margin: 0;
+  display: block;
+  width: 164px;
+  height: 30px;
+  border: 1px solid rgba(255, 255, 255, .5);
+  background-color: rgba(255, 255, 255, .2);
+  line-height: 30px;
+  text-align: center;
+  border-radius: 4px;
+}
+
+/* 主演信息溢出... */
+.introduce_title>p:nth-child(4) {
+  width: 950px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+/* 电影介绍溢出 ... */
+.p_mdetails {
+  width: 950px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+/*订票日期*/
+.date_div {
+  width: 70%;
+  margin-top: 40px;
+  float: left;
+}
+
+.select_div {
+  height: 113px;
+  height: 100%;
+  border: 1px solid #f3f3f3;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.date_div_ul {
+  width: 100%;
+  height: 40px;
+}
+
+.date_div_ul>div {
+  float: left;
+  margin: 5px 10px 5px 15px;
+  font-size: 14px;
+
+}
+
+.date_div_ul>ul>li {
+  float: left;
+  margin: 5px 10px;
+  line-height: 17px;
+}
+
+.date_div_ul>ul>li>span {
+  font-size: 13px;
+
+}
+
+/*影院*/
+.cinema>ul>li {
+  padding: 30px 0;
+  display: flex;
+  border-bottom: 1px solid #f3f3f3;
+}
+
+.cinema_div {
+  height: 70px;
+  width: 400px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  line-height: 33px;
+}
+
+.cinema>ul>li>p {
+  color: #fd8e51;
+  font-size: 18px;
+  font-weight: 400;
+  font-style: normal;
+  height: 30px;
+  line-height: 30px;
+  margin: 35px 133px 0px 170px;
+}
+
+.cinema>ul>li>a {
+  display: block;
+  width: 87px;
+  height: 25px;
+  line-height: 25px;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  background-color: #fd8e51;
+  margin-top: 35px;
+}
+
+.view_more {
+  height: 34px;
+  border: 1px solid #f3f3f3;
+  border-left: 0;
+  line-height: 34px;
+  text-align: center;
+  color: #767676;
+  background-color: #f9f9f9;
+  font-size: 14px;
+}
+
+/*票房*/
+.font_h3 {
+  font-size: 20px;
+  margin: 30px 0;
+  font-weight: 300px;
+}
+
+.office_ul {
+  float: left;
+}
+
+.office_ul>li {
+  float: left;
+  width: 279px;
+  height: 74px;
+  border-right: 1px solid #ededed;
+  text-align: center;
+}
+
+.office_ul>li:last-child {
+  border: 0;
+}
+
+.office_ul>li>p:first-child {
+  height: 40px;
+  padding-bottom: 16px;
+  font-size: 40px;
+  line-height: 40px;
+  color: #ff318c;
+  margin-bottom: 15px;
+}
+
+.office_ul>li>p>i {
+  font-style: normal;
+  padding-left: 4px;
+  font-size: 17px;
+  color: #333;
+}
+
+#date>li {
+  border: 1px solid transparent;
+  box-sizing: border-box;
+}
+
+#date>li:hover {
+  border: 1px solid #ff318c;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+/*____________________________*/
+/*======================================*/
+#like {
+  color: palevioletred;
+}
+
+#index_left {
+  /* position: absolute;
+  left: 950px;
+  top: -1345px; */
+  float: right;
+}
+
+.date_div {
+  /* float: left; */
+}
+
+/*-----------------------------*/

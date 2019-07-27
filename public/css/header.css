@@ -1,0 +1,191 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/*header-style*/
+.banged {
+  height: 160px;
+  background-color: #fff;
+}
+
+.bang {
+  margin: auto;
+  width: 1210px;
+  height: 80px;
+}
+
+.inp1 {
+  width: 390px;
+  height: 40px;
+  float: right;
+  margin-top: 20px;
+  outline: 0;
+}
+
+.index {
+  height: 80px;
+  width: 1210px;
+  margin: auto;
+}
+
+.index>span>a {
+  color: #fff;
+  display: inline-block;
+  height: inherit;
+}
+
+.nav_ {
+  height: 80px;
+  background: #3b3a41;
+}
+
+.mover::before {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.mover {
+  width: 1210px;
+  margin: auto;
+}
+
+.mover h5 {
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+.loog_inp1 {
+  float: right;
+  position: relative;
+}
+
+.loog_inp1_span {
+  position: absolute;
+  top: 32px;
+  right: 12px;
+}
+
+.loog_img {
+  float: left;
+  margin-top: 20px;
+  position: relative;
+}
+
+.loog_img>img:first-child {
+  width: 150px;
+
+}
+
+loog_img>img:last-child {
+  float: left;
+}
+
+/*���ж�λ*/
+.loog_img>span {
+  display: inline-block;
+  width: 80px;
+  height: 42px;
+  position: absolute;
+  top: 10px;
+  left: 355px;
+  text-align: center;
+  cursor: pointer;
+  border: 1px solid transparent;
+}
+
+.loog_img>span>b {
+  font-weight: 300;
+}
+
+.loog_img>span ul {
+  list-style: none;
+  float: left;
+  font-size: 14px;
+  overflow: hidden;
+}
+
+.loog_img>span>div {
+  width: 200px;
+  background: #fff;
+  height: 100px;
+  box-shadow: 0px -1px 15px #888;
+  border-radius: 3px;
+  margin-top: 17px;
+  overflow: hidden;
+  display: none;
+}
+
+#fon {
+  width: 15px;
+  height: 15px;
+  background: #fff;
+  box-shadow: 1px -1px 95px #888;
+  transform: rotate(45deg);
+  border-radius: 0;
+  position: absolute;
+  top: 14px;
+  left: 39px;
+}
+
+.loog_img>span ul>li {
+  margin: 5px 9px;
+}
+
+.loog_img>span ul>li:hover {
+  color: #ff318f;
+}
+
+.loog_img>span>img {
+  transition: all .3s linear;
+}
+
+.loog_img>span:hover>img {
+  transform: rotate(-180deg);
+  transition: all .3s linear;
+  cursor: pointer;
+}
+
+.loog_img>span:hover>div {
+  display: block;
+}
+
+.index>span {
+  display: inline-block;
+  font-size: 18px;
+  color: #fff;
+  line-height: 80px;
+  padding: 0 25px;
+  cursor: pointer;
+}
+
+.index>p {
+  float: right;
+  line-height: 80px;
+}
+
+.index>p>a {
+  font-size: 16px;
+  color: #ccc;
+}
+
+.index>span:hover {
+  background: #1d1d20;
+}
+
+.index>img {
+  width: 180px;
+  float: right;
+  margin: 25px 20px 0 0;
+}

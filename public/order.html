@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>选座</title>
+	<link rel="stylesheet" href="css/order.css">
+	<link rel="stylesheet" href="css/header.css">
+</head>
+
+<body>
+	<div id="header_html"></div>
+	<div class="body_margin">
+		<div class="title_div">
+			<ul>
+				<li>1.选择影片场次</li>
+				<li>2.选座并填手机号</li>
+				<li>3.提交并支付订单</li>
+				<li>4.影院终端取票</li>
+			</ul>
+		</div>
+		<div class="seat">
+			<div class="seat_left">
+				<div class="seat_center">
+					<div class="screen"></div>
+					<span>7号全景声激光巨幕厅</span>
+				</div>
+				<div class="rows">
+					<ul>
+						<li>1</li>
+						<li>2</li>
+						<li>3</li>
+						<li>4</li>
+						<li></li>
+						<li>5</li>
+						<li>6</li>
+						<li>7</li>
+						<li>8</li>
+						<li>9</li>
+						<li>10</li>
+						<li>11</li>
+						<li>12</li>
+						<li>13</li>
+						<li>14</li>
+					</ul>
+
+				</div>
+				<div class="seat_left_center">
+					<div class="message">
+						<p class="message_p">最多</p>
+						<p>只能定</p>
+						<p>5张哦!</p>
+					</div>
+					<div class="center_weiz">
+						<span id="center_weiz_screen">银幕中央</span>
+						<div class="_select">
+							<ul></ul>
+						</div>
+					</div>
+					<div class="sign">
+						<ul>
+							<li>可选座位</li>
+							<li>已选座位</li>
+							<li>已售座位</li>
+							<li>情侣座</li>
+						</ul>
+					</div>
+					<div class="explain">
+						<h4>使用说明:</h4>
+						<p>1、每笔订单最多可选购4张电影票，情侣座不单卖；</p>
+						<p>2、选座时，请尽量选择相邻座位，不要留下单个座位；</p>
+						<p>3、点击"完成选座"后，请在15分钟内完成支付，超时系统将释放你选定的座位；</p>
+						<p>4、选座购票为特殊商品，出票成功后，如无无法使用问题，不得退换</p>
+						<p>5、付款后若没有出票成功，我们将自动为您退款。出票成功后，请牢记取票密码，若没有收到取票短信，请到订单中心查询，或拨打客服电话4009-237-171；</p>
+					</div>
+				</div>
+			</div>
+			<div class="seat_right">
+				<div class="ditalis">
+					<div class="ditalis_mover">
+						<img src="#" alt="">
+						<div>
+							<p></p>
+							<p></p>
+							<p></p>
+						</div>
+					</div>
+					<div class="ditalis_mover2">
+						<p>影院：<span id="cine">北京横店电影城(王府井店)</span></p>
+						<p>影厅：<span>7号全景声激光巨幕厅</span></p>
+						<p>场次：<span>7月11日 周四 23:00</span></p>
+					</div>
+					<div class="ditalis_mover3">
+						<p>座位：</p>
+						<!--<div class="ditalis_div">
+											<p class="ditalis_p">5排4座</p>
+									</div>-->
+						<p id="no_c">未选择座位</p>
+					</div>
+					<div class="ditalis_mover4">
+						<p>票数：<span>0 张</span></p>
+						<p>总价：<span>0 元</span></p>
+					</div>
+					<a href="javascript:;" id="tocart">确认提交</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="toast">即将跳转去付款...</div>
+	<script src="js/header.js"></script>
+	<script src="js/ajax.js"></script>
+	<script src="js/order.js"></script>
+</body>
+
+</html>

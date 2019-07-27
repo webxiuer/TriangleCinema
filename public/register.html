@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>注册</title>
+	<link rel="stylesheet" href="css/register.css">
+	<style>
+	</style>
+</head>
+
+<body>
+	<div class="NM_head">
+		<div class="head_denglu">
+			<div class="head_sx">
+				<img src="Timg/index/logo_l.png" alt="">
+				<!-- <a class="NM_loog"></a> -->
+				<span class="NM_head_font">注册</span>
+			</div>
+			<div class="NM_head_right">
+				<span>我已注册，现在就</span>
+				<a href="login.html" class="NM_head_right_login">登录</a>
+			</div>
+		</div>
+	</div>
+	<div class="register_body">
+		<div class="register_au">
+			<div class="register_form">
+				<!--  -->
+				<span>用户名</span>
+				<input type="text" name="uname" placeholder="请设置用户名" class="ipt" autofocus id="uname" value="" maxlength="16">
+				<!--  -->
+				<span>手机号</span>
+				<input type="text" name="phone" placeholder="可用于登录和找回密码" class="ipt" required id="phone" value=""
+					maxlength="11">
+				<!--  -->
+				<span class="pwd">密码</span>
+				<input type="password" name="upwd" placeholder="请设置登录和密码" class="ipt" id="upwd" value="" maxlength="16">
+				<!--  -->
+				<span>验证码</span>
+				<input type="text" placeholder="请输入验证码" class="verify" id="check_code" value="" maxlength="6">
+				<a href="javascript:;">获取短信验证码</a><br>
+				<!--  -->
+				<p>
+					<input type="checkbox" id="ischeck">
+					<label class="protocol" for="ischeck">阅读并接受
+						<a href="javascript:;">《Triangle用户协议》</a>及
+						<a href="javascript:;">《Triangle隐私权保护声明》</a>
+					</label>
+				</p>
+				<!--  -->
+				<button class="btn" id="btnreg">注册</button>
+				<div id="reg_suc"></div>
+			</div>
+			<!-- 验证提示 -->
+			<div id="suc">
+				<!-- 成功 -->
+				<img src="Timg/login/comment-success_d740124.png" id="uname_suc">
+				<!-- 成功 -->
+				<img src="Timg/login/comment-success_d740124.png" id="upwd_suc">
+				<!-- 成功 -->
+				<img src="Timg/login/comment-success_d740124.png" id="phone_suc">
+				<!-- 成功 -->
+				<img src="Timg/login/comment-success_d740124.png" id="ccode_suc">
+				<!-- 成功 -->
+				<img src="Timg/login/comment-success_d740124.png" id="ischeck_suc">
+			</div>
+			<div class="judge" id="judge">
+				<span data-for="uname">
+					<img src="Timg/login/comment-failure_bf6d740.png">&nbsp;请输入您的用户名称(3~16)
+				</span>
+				<span data-for="phone">
+					<img src="Timg/login/comment-failure_bf6d740.png">&nbsp;请输入您的手机号
+				</span>
+				<span data-for="upwd">
+					<img src="Timg/login/comment-failure_bf6d740.png">&nbsp;请您输入密码(6~16)
+				</span>
+				<span data-for="check_code">
+					<img src="Timg/login/comment-failure_bf6d740.png">&nbsp;请输入手机验证码
+				</span>
+			</div>
+			<!--  -->
+			<div class="judge_tow" id="judge_tow">
+				<!-- 0 -->
+				<span>
+					<img src="Timg/login/comment-failure_bf6d740.png">&nbsp;此用户名太受欢迎,请更换一个
+				</span>
+				<!-- 1 -->
+				<span>
+					<img src="Timg/login/comment-failure_bf6d740.png">&nbsp;该手机号已注册，您可直接登录
+				</span>
+				<!-- 2 -->
+				<ul class="judge_tow_ul" id="upwd_msg">
+					<li class="fot">◆</li>
+					<li><img src="Timg/login/yuan.png">长度为6~16个字符</li>
+					<li><img src="Timg/login/yuan.png">支持数字,大小写字母和标点符号</li>
+					<li><img src="Timg/login/yuan.png">不允许有空格</li>
+				</ul>
+				<!-- 3 -->
+				<span>
+					<img src="Timg/login/comment-failure_bf6d740.png">&nbsp;验证码错误
+				</span>
+				<!-- 4 -->
+				<span class="judge_tow_a">
+					<img src="Timg/login/comment-failure_bf6d740.png">&nbsp;
+					<a href="javascript:;">请勾选“阅读并接受Triangle用户协议”</a>
+				</span>
+			</div>
+		</div>
+		<a href="javascript:;"><img src="Timg/login/robot.gif"></a>
+	</div>
+	<div class="_footer">
+		2019 © Triangle
+	</div>
+	<div class="_footer">
+		<div class="footer_bottom">
+			<a href="javascript:;">关于Triangle</a>
+			<span>|</span>
+			<a href="javascript:;">常见问题</a>
+			<span>|</span>
+			<a href="javascript:;">违规投诉</a>
+			<span>|</span>
+			<a href="javascript:;">开放平台</a>
+			<span>|</span>
+			<a href="javascript:;">用户协议</a>
+			<span>|</span>
+			客服电话：
+			<span id="kefu">400-9216-666</span>
+			(每天9:00 - 22:00)
+		</div>
+		<div class="_copy">
+			<span class="copyright">©</span>
+			<span>2015</span>&nbsp;
+			<span>nuomi.com</span>&nbsp;&nbsp;
+			<a href="javascript:;">京ICP证030173号</a>&nbsp;&nbsp;
+			<span>京公网安备11010802014106号</span>
+		</div>
+	</div>
+	<div id="toast1">请检查您的注册信息是否合规</div>
+	<div id="toast2">注册成功, 前往登录</div>
+	<script src="js/ajax.js"></script>
+	<script src="js/register.js"></script>
+</body>
+
+</html>

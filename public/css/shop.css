@@ -1,0 +1,311 @@
+/*全局样式*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box
+}
+
+body,
+p,
+b,
+dl,
+dd,
+input,
+img,
+form,
+div,
+ul,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+em {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-weight: 400;
+}
+
+div {
+  display: block;
+}
+
+.font16 {
+  font-size: 16px;
+}
+
+.font_l {
+  color: #999;
+  font-size: 8.5px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.shop_middle_div {
+  width: 1208px;
+  margin: 30px auto 0;
+  background-color: #fff;
+}
+
+.shop_middle_div>h2 {
+  padding: 0 0 15px;
+}
+
+.shop_middle_div>h2>span {
+  margin-top: 3px;
+  font-size: 12px;
+  color: #999;
+  float: right;
+}
+
+/*  电影详情 */
+.bor_der {
+  border: 1px solid #f1f1f1;
+  height: 360px;
+}
+
+.body_div {
+  margin-bottom: 30px;
+  padding-bottom: 20px;
+}
+
+.title_time_div {
+  margin-bottom: 30px;
+  padding: 24px 30px 24px 42px;
+  background-color: #ffedf3;
+  color: #fc4984;
+  font-size: 8.5px;
+
+}
+
+.time_div {
+  margin-top: -9px;
+  float: right;
+  color: #fc4984;
+}
+
+.time_div>span {
+  margin-right: 4px;
+  font-size: 14px;
+  vertical-align: middle;
+  color: #999;
+}
+
+.time_div>time {
+  font-size: 24px;
+  vertical-align: middle;
+  color: #fc4984;
+}
+
+/* 订票详情 */
+
+.ticket_data {
+  color: #333;
+}
+
+.ticker_data {
+  display: inline-block;
+  vertical-align: middle;
+  width: 442px;
+  vertical-align: top;
+}
+
+.title_p {
+  margin-bottom: 8px;
+  font-size: 18px;
+  cursor: pointer;
+  color: #333;
+}
+
+.title_languge {
+  margin-bottom: 18px;
+  color: #999;
+}
+
+.title_languge>span {
+  margin-right: 18px;
+  padding-right: 20px;
+  color: #999;
+  font-size: 8.5px;
+}
+
+.w-ticket {
+  width: 60px;
+  text-align: center;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.threat_info {
+  margin-bottom: 18px;
+}
+
+.threat_info>li {
+  cursor: pointer;
+  font-size: 14px;
+  color: #333;
+  list-style: none;
+}
+
+.seat {
+  color: #333;
+}
+
+.seat>li {
+  position: relative;
+  display: inline-block;
+  margin: 0 5px 5px 0;
+  padding: 4px 12px;
+  border: 1px solid #d5d5d5;
+  font-size: 14px
+}
+
+i {
+  left: -1px;
+  border-left: 0;
+  border-radius: 0 4px 4px 0;
+  position: absolute;
+  z-index: 10;
+  top: 50%;
+  width: 4px;
+  height: 8px;
+  margin-top: -4px;
+  border: 1px solid #999;
+  background-color: #fff;
+}
+
+em {
+  position: absolute;
+  z-index: 10;
+  top: 50%;
+  width: 4px;
+  height: 8px;
+  margin-top: -4px;
+  border: 1px solid #999;
+  background-color: #fff;
+  right: -1px;
+  border-right: 0;
+  border-radius: 4px 0 0 4px;
+}
+
+/*  手机号样式  */
+
+.line_width {
+  width: 0;
+  height: 172px;
+  margin: 0 50px;
+  border-left: 1px solid #f1f1f1;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.phone_div {
+  width: 204px;
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 14px;
+  color: #999;
+}
+
+.phone_p {
+  margin: 10px 0 0 -4px;
+}
+
+.phone_p>span {
+  font-size: 24px;
+  color: #333;
+}
+
+.phone_p>a {
+  color: #fc4984;
+  text-decoration: none;
+}
+
+.all_price {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.price {
+  margin: 10px 0 0 -2px;
+  font-size: 24px;
+}
+
+.pay_div {
+  margin: 50px 0 101px 0;
+  text-align: right;
+  color: #999;
+}
+
+.pay {
+  margin-bottom: 10px;
+  font-size: 14px;
+  text-align: right;
+}
+
+.pay_number {
+  font-size: 24px;
+  color: #fc4984;
+  text-align: right;
+}
+
+.ture_pay {
+  display: inline-block;
+  width: 240px;
+  height: 50px;
+  font-size: 18px;
+  line-height: 50px;
+  text-align: center;
+  color: #fff;
+  background-color: #fc4984;
+  text-decoration: none;
+}
+
+.false_pay {
+  display: inline-block;
+  width: 240px;
+  height: 50px;
+  font-size: 18px;
+  line-height: 50px;
+  text-align: center;
+  color: #fff;
+  background-color: #999;
+  text-decoration: none;
+  cursor: default;
+}
+
+#toast {
+  color: #eee;
+  opacity: 0;
+  width: 240px;
+  height: 80px;
+  line-height: 80px;
+  text-align: center;
+  position: absolute;
+  top: 300px;
+  left: 50%;
+  transform: translateX(-150px);
+  border-radius: 10px;
+  background: #66666673;
+  transition: opacity 0.3s linear;
+}
+
+#toast0 {
+  opacity: 0;
+  position: absolute;
+  top: 250px;
+  left: 50%;
+  transform: translateX(-200px);
+  border-radius: 10px;
+  transition: opacity 0.3s linear;
+}
+
+#toast0>img {
+  width: 400px;
+  height: 500px;
+}

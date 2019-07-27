@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/details.css">
+  <link rel="stylesheet" href="css/header.css">
+  <link rel="stylesheet" href="css/right.css">
+  <title>电影一览</title>
+</head>
+
+<body>
+  <!-- 头部 -->
+  <div id="header_html"></div>
+  <div class="mover">
+    <!-- *****正在热映********* -->
+    <div class="banner">
+      <h5>正在热映</h5>
+      <div class="banner1">
+        <ul class="banner_ul" id="mlist1">
+          <!-- for生成 -->
+          <!-- <li>
+                <img src="Timg/details/a2b6ffe3ff69fcb3fe48032811f4b65ffd94be16.png" alt="">
+                <p>蜘蛛侠:英雄远征</p>
+                <a href="JavaScript:;">选座购票</a>
+                <span>9.1</span>
+              </li>
+              <li>
+                <img src="Timg/details/e432f48be814a0f6691484f9b3baf23814c1276f.jpg" alt="">
+                <p>千与千寻</p>
+                <a href="JavaScript:;">选座购票</a>
+                <span>9.5</span>
+              </li>
+              <li>
+                <img src="Timg/details/15c9b124d08b82a36a510ed01fb3a733b2635e9c.jpg" alt="">
+                <p>玩具总动员4</p>
+                <a href="JavaScript:;">选座购票</a>
+                <span>9.2</span>
+              </li>
+              <li>
+                <img src="Timg/details/915a10fb101f038d727854a396208d63272ac9ba.jpg" alt="">
+                <p>扫毒2天地对局</p>
+                <a href="JavaScript:;">选座购票</a>
+                <span>8.0</span>
+              </li>
+              <li>
+                <img src="Timg/details/6437c90b700b6f4380be3f88a30ced8647761c82.jpg" alt="">
+                <p>八子</p>
+                <a href="JavaScript:;">选座购票</a>
+                <span>8.6</span>
+              </li>
+              <li>
+                <img src="Timg/details/a441e322566447294a1cfc876549b52804f70767.jpg" alt="">
+                <p>宠爱大机密2</p>
+                <a href="JavaScript:;">选座购票</a>
+                <span>8.4</span>
+              </li>
+              <li>
+                <img src="Timg/details/5edbd1a20d9ec0a3c3a5c0c29d27acd687691655.jpg" alt="">
+                <p>绝杀慕尼黑</p>
+                <a href="JavaScript:;">选座购票</a>
+                <span>9.1</span>
+              </li>
+              <li>
+                <img src="Timg/details/779c39a333ad76d18d4fb39a7229fe0945539490.jpg" alt="">
+                <p>九龙不败</p>
+                <a href="JavaScript:;">选座购票</a>
+                <span>7.8</span>
+              </li>
+              <li>
+                <img src="Timg/details/d15cd9552621f04970a8eddd18120992287a6d49.jpg" alt="">
+                <p>黑衣人：全球通缉</p>
+                <a href="JavaScript:;">选座购票</a>
+                <span>7.6</span>
+              </li>
+              <li>
+                <img src="Timg/details/a096398c822ec0c6c8c1fc3be17d384f870b0087.jpg" alt="">
+                <p>最好的我们</p>
+                <a href="JavaScript:;">选座购票</a>
+                <span>9</span>
+              </li>
+              <li>
+                <img src="Timg/details/374592529070c01582fb618258b4d8e623e549c5.jpg" alt="">
+                <p>碟仙</p>
+                <a href="JavaScript:;">选座购票</a>
+                <span>5.4</span> 
+              </li>
+              <li>
+                <img src="Timg/details/54aa21de56d8355582b208e2331c52d9286b1625.jpg" alt="">
+                <p>哥斯拉：怪兽之王</p>
+                <a href="JavaScript:;">选座购票</a>
+                <span>8.6</span>
+              </li>
+              <li>
+                <img src="Timg/details/b7058df94f5b97b13f19af32d530a90a2bba64c5.jpg" alt="">
+                <p>素人特工</p>
+                <a href="JavaScript:;">选座购票</a>
+                <span>7.4</span>
+              </li>
+              <li>
+                <img src="Timg/details/f608c34fe11861fc8ecd3013531b60dd7dccd765.jpg" alt="">
+                <p>妈阁是座城</p>
+                <a href="JavaScript:;">选座购票</a>
+                <span>7.8</span>
+                </li>
+              <li>
+                <img src="Timg/details/db52d77ea28ea79d28faf6fc1394ba942f3f19e3.jpg" alt="">
+                <p>命运之夜--天之杯···</p>
+                <a href="JavaScript:;">选座购票</a>
+                <span>7.7</span>
+              </li>
+              <li>
+                <img src="Timg/details/060a14e4644195e4d229fea6e917542ebe789486.jpg" alt="">
+                <p>X战警：黑凤凰</p>
+                <a href="JavaScript:;">选座购票</a>
+                <span>8.5</span>
+              </li>
+              <li>
+                <img src="Timg/details/4d627ae00985d3e3b1aa1889b5d9b673926b2db3.jpg" alt="">
+                <p>追龙II</p>
+                <a href="JavaScript:;">选座购票</a>
+                <span>7.8</span>
+              </li>
+              <li>
+                <img src="Timg/details/07a90b26f7d708276145de4dc014e5a2ebf2c77f.jpg" alt="">
+                <p>猪猪侠·不可思议的···</p>
+                <a href="JavaScript:;">选座购票</a>
+                <span>7.8</span>
+              </li>
+              <li>
+                <img src="Timg/details/f993c1890c27512fdd4acdbd3e009814fd6dcc32.jpg" alt="">
+                <p>逆流大叔</p>
+                <a href="JavaScript:;">选座购票</a>
+                <span>7.3</span>
+              </li>
+              <li>
+                <img src="Timg/details/83fe02bb8b8c5d20d9917bf0d8611677f3b761d8.jpg" alt="">
+                <p>监护风云</p>
+                <a href="JavaScript:;">选座购票</a>
+                <span>8.2</span>
+              </li> 
+              <li>
+                <img src="Timg/details/81da4ba1b61ec4400e3daec28bfdd23b8ca71fc8.jpg" alt="">
+                <p>周恩来回延安</p>
+                <a href="JavaScript:;">选座购票</a>
+                <span>7.0</span>
+              </li>
+              <li>
+                <img src="Timg/details/7c2c0941cf0c575b2ba201cc2bdb1087ef7dc3c2.jpg" alt="">
+                <p>机动战士高达NT</p>
+                <a href="JavaScript:;">选座购票</a>
+                <span>7.3</span>
+              </li>
+          
+              <li>
+                <img src="Timg/details/6c91af0dd7c3bdb5eba1e9c8a98256f49eb12fb5.jpg" alt="">
+                <p>大河唱</p>
+                <a href="JavaScript:;">选座购票</a>
+                <span>6.5</span>
+              </li>
+              <li>
+                <img src="Timg/details/7b9c865070840227c800cc61541d99412d395dec.jpg" alt="">
+                <p>大侦探皮卡丘</p>
+                <a href="JavaScript:;">选座购票</a>
+                <span>8.8</span>
+              </li>
+              <li>         
+                <img src="Timg/details/8451cdf1b1dc6a06bc95ba6185427f39956363b3.jpg" alt="">
+                <p>学区房72小时</p>
+                <a href="JavaScript:;">选座购票</a>
+                <span>6.4</span>
+              </li>
+              <li>
+                <img src="Timg/details/92b292b8402e979e10e503b2d5bbef1c7d3873cb.jpg" alt="">
+                <p>潜行者</p>
+                <a href="JavaScript:;">选座购票</a>
+                <span>7.3</span>
+              </li>
+              <li>
+                <img src="Timg/details/a9b1e704907664d818c77e75103562a8ef7f3a4b.jpg" alt="">
+                <p>你咪理,我爱你</p>
+                <a href="JavaScript:;">选座购票</a>
+                <span>7.3</span>
+              </li>
+              <li>
+                <img src="Timg/details/22f0ad4d06af8e84d8cd175e3eddcfe51cddb184.jpg" alt="">
+                <p>秦明·生死语者</p>
+                <a href="JavaScript:;">选座购票</a>
+                <span>8.1</span>
+              </li>
+              <li>
+                <img src="Timg/details/2e1e8c3562bdae7ff34407992691f02056c6905d.jpg" alt="">
+                <p>我的青春都是你</p>
+                <a href="JavaScript:;">选座购票</a>
+                <span>7.8</span>
+              </li>
+              <li>
+                <img src="Timg/details/1e3baa15dc7aa817f856dda3eb62da1ea7630658.jpg" alt="">
+                <p>善良的天使</p>
+                <a href="JavaScript:;">选座购票</a>
+                <span>7.4</span>
+              </li> 
+            <li>         
+              <img src="Timg/details/7db20966e98c8fb4d6da1be4a3ee4cdce89ff996.jpg" alt="">
+              <p>上海的女儿</p>
+              <a href="JavaScript:;">选座购票</a>
+              <span></span>
+            </li>
+            <li>
+              <img src="Timg/details/3366afaad8987e259e2d3ced3d8798c204478a22.jpg" alt="">
+              <p>狮子王</p>
+              <a href="JavaScript:;">选座购票</a>
+            </li>
+            <li>
+              <img src="Timg/details/ba802455fc4953c2dad8aa2ea4ffe11e760c0bb0.jpg" alt="">
+              <p>最后一刻</p>
+              <a href="JavaScript:;">选座购票</a>
+            </li>
+            <li>
+              <img src="Timg/details/5a07814e01e5a950fbfd6f70791c8578f651119f.jpg" alt="">
+              <p>三年</p>
+              <a href="JavaScript:;">选座购票</a>
+            </li>
+            <li>
+              <img src="Timg/details/37380897be7a1104901be5d820ee7fd0dae1c883.jpg" alt="">
+              <p>五月天人生无限公司</p>
+              <a href="JavaScript:;">选座购票</a>
+            </li>
+            <li>
+              <img src="Timg/details/2b818e95aa35be23b544e662f8902e1978c83419.jpg" alt="">
+              <p>真相漩涡</p>
+              <a href="JavaScript:;">选座购票</a>
+            </li>
+            <li>
+              <img src="Timg/details/657eeb2d32ce23db196719304ca99446a2f3aed9.jpg" alt="">
+              <p>进京城</p>
+              <a href="JavaScript:;">选座购票</a>
+            </li>
+            <li>
+              <img src="Timg/details/4bf84e36cc3510b60423a019b358582dbf00137b.jpg" alt="">
+              <p>罗马</p>
+              <a href="JavaScript:;">选座购票</a>
+            </li>
+            <li>
+              <img src="Timg/details/873f746f6210ffc3944d072cdf11cd74aaa2a1ad.jpg" alt="">
+              <p>废菜老爸</p>
+              <a href="JavaScript:;">选座购票</a>
+            </li>
+            <li>
+              <img src="Timg/details/432d77a717f03cc1f230c6eed7f94fd09b651e7a.jpg" alt="">
+              <p>港珠澳大桥</p>
+              <a href="JavaScript:;">选座购票</a>
+            </li>
+            <li>
+              <img src="Timg/details/ab365882c65ec103c7fa8a1a2ade19aa63bbdf21.jpg" alt="">
+              <p>潜艇总动员:外星宝···</p>
+              <a href="JavaScript:;">选座购票</a>
+            </li>
+            <li>
+              <img src="Timg/details/55f57cc946cf5a3982ae2bbb9e3791151042e153.jpg" alt="">
+              <p>无所不能</p>
+              <a href="JavaScript:;">选座购票</a>
+            </li> -->
+        </ul>
+      </div>
+      <div class="btn-left" onclick="btnLeft()"></div>
+      <div class="btn-right" onclick="btnRight()"></div>
+    </div>
+    <!-- <div id="index_left">
+        <h3>热门影院<a href="JavaScript:;">全部&gt;&gt;</a></h3>
+        <h4>当日票房排行榜</h4>
+        <ul class="index_left_ul">
+          <li>
+            <span>1.</span>
+             蜘蛛侠：英雄远征
+            <span>17326.6</span>
+            <div>
+              <a href="JavaScript:;">
+              <img src="Timg/details/a2b6ffe3ff69fcb3fe48032811f4b65ffd94be16.png" alt=""></a></div>
+          </li>
+          <li>
+            <span>2.</span>
+              千与千寻
+            <span>2727.6</span>
+            <div>
+              <a href="JavaScript:;">
+                <img src="Timg/details/e432f48be814a0f6691484f9b3baf23814c1276f.jpg" alt="">
+              </a>
+            </div>
+          </li>
+          <li>
+            <span>3.</span>
+            玩具总动员4
+            <span>265.3</span>
+            <div>
+              <a href="JavaScript:;">
+                <img src="Timg/details/15c9b124d08b82a36a510ed01fb3a733b2635e9c.jpg" alt="">
+              </a>
+            </div>
+          </li>
+          <li>
+            <span>4.</span>
+            最好的我们
+            <span>1501.1</span>
+            <div><a href=""><img src="Timg/details/a096398c822ec0c6c8c1fc3be17d384f870b0087.jpg" alt=""></a></div>
+          </li>
+          <li>
+            <span>5.</span>
+            绝杀慕尼黑
+            <span>249.3</span>
+            <div>
+              <a href="JavaScript:;">
+                <img src="Timg/details/5edbd1a20d9ec0a3c3a5c0c29d27acd687691655.jpg" alt="">
+              </a>
+            </div>
+          </li>
+          <li>
+            <span>6.</span>
+             哥斯拉2：怪兽之王
+            <span>160.5</span>
+            <div>
+              <a href="JavaScript:;">
+                <img src="Timg/details/54aa21de56d8355582b208e2331c52d9286b1625.jpg" alt="">
+              </a>
+            </div>
+          </li>
+          <li>
+            <span>7.</span>
+            碟仙
+            <span>154.4</span>
+            <div><a href="JavaScript:;">
+              <img src="Timg/details/374592529070c01582fb618258b4d8e623e549c5.jpg" alt="">
+            </a>
+            </div>
+          </li>
+          <li>
+            <span>8.</span>
+            黑衣人：全球通缉
+            <span>101.7</span>
+            <div>
+              <a href="JavaScript:;">
+                <img src="Timg/details/d15cd9552621f04970a8eddd18120992287a6d49.jpg" alt="">
+              </a>
+            </div>
+          </li>
+          <li>
+            <span>9.</span>
+            八子
+            <span>86.1</span>
+            <div>
+              <a href="JavaScript:;">
+              <img src="Timg/details/6437c90b700b6f4380be3f88a30ced8647761c82.jpg" alt="">
+              </a>
+            </div>
+          </li>
+          <li>
+            <span>10.</span>
+            追龙II
+            <span>52.3</span>
+            <div>
+              <a href="JavaScript">
+                <img src="Timg/details/4d627ae00985d3e3b1aa1889b5d9b673926b2db3.jpg" alt="">
+              </a>
+            </div>
+          </li>
+        </ul>
+    </div> -->
+    <div class="_body"></div>
+    <div class="banner_2">
+      <h5>即将上映</h5>
+      <div class="banner1">
+        <ul class="banner_ul_2" id="mlist2">
+          <!-- for生成 -->
+          <!-- <li id="d2"> -->
+          <!-- <li>
+            <img src="Timg/details/779c39a333ad76d18d4fb39a7229fe0945539490.jpg" alt="">
+            <p>九龙不败</p>
+            <a href="JavaScript:;">查看详情</a>
+          </li>
+          <li>
+            <img src="Timg/details/72357e5d4a1e3978f18618deee0f276d27fa5f4e.jpg" alt="">
+            <p>别岁</p>
+            <a href="JavaScript:;">查看详情</a>
+          </li>
+          <li>
+            <img src="Timg/details/7db20966e98c8fb4d6da1be4a3ee4cdce89ff996.jpg" alt="">
+            <p>上海的女儿</p>
+            <a href="JavaScript:;">查看详情</a>
+          </li>
+          <li>
+            <img src="Timg/details/915a10fb101f038d727854a396208d63272ac9ba.jpg" alt="">
+            <p>扫毒2天地对局</p>
+            <a href="JavaScript:;">查看详情</a>
+          </li>
+          <li>
+            <img src="Timg/details/1e3baa15dc7aa817f856dda3eb62da1ea7630658.jpg" alt="">
+            <p>善良的天使</p>
+            <a href="JavaScript:;">查看详情</a>
+          </li>
+          <li>
+            <img src="Timg/details/a441e322566447294a1cfc876549b52804f70767.jpg" alt="">
+            <p>宠爱大机密2</p>
+            <a href="JavaScript:;">查看详情</a>
+          </li>
+          <li>
+            <img src="Timg/details/07a90b26f7d708276145de4dc014e5a2ebf2c77f.jpg" alt="">
+            <p>猪猪侠·不可思议的···</p>
+            <a href="JavaScript:;">查看详情</a>
+          </li>
+          <li>
+            <img src="Timg/details/d733a177ac52366a8f15b5284a73b016676b12ca.jpg" alt="">
+            <p>他她他她</p>
+            <a href="JavaScript:;">查看详情</a>
+          </li>
+          <li>
+            <img src="Timg/details/023b5bb5c9ea15ce7184d00cba003af33a87b248.jpg" alt="">
+             <p>阳光星旅团</p>
+            <a href="JavaScript:;">查看详情</a>
+          </li>
+          <li>
+            <img src="Timg/details/b7058df94f5b97b13f19af32d530a90a2bba64c5.jpg" alt="">
+            <p>素人特工</p>
+            <a href="JavaScript:;">查看详情</a>
+          </li>
+          <li>
+            <img src="Timg/details/374592529070c01582fb618258b4d8e623e549c5.jpg" alt="">
+            <p>碟仙</p>
+            <a href="JavaScript:;">查看详情</a>
+          </li>
+          <li>
+            <img src="Timg/details/54aa21de56d8355582b208e2331c52d9286b1625.jpg" alt="">
+            <p>哥斯拉：怪兽之王</p>
+            <a href="JavaScript:;">查看详情</a>
+          </li>
+          <li>
+            <img src="Timg/details/1794f79b64d072ccff48dd730390757427710f4b.jpg" alt="">
+            <p>封口之谜</p>
+            <a href="JavaScript:;">查看详情</a>
+          </li>
+          <li>
+            <img src="Timg/details/f55c42c668422220a684f094cbb84dbf919ac318.jpg" alt="">
+            <p>哆啦A梦：大雄的月···</p>
+            <a href="JavaScript:;">查看详情</a>
+            </li>
+          <li>
+            <img src="Timg/details/210d8c0bba4256865b71197bdfca1dd574737b0e.jpg" alt="">
+            <p>八尺·一声一世</p>
+            <a href="JavaScript:;">查看详情</a>
+          </li>
+          <li>
+            <img src="Timg/details/6fedeb07b12458950f1e5019315fb61f483fea9e.jpg" alt="">
+            <p>卡拉斯：为爱而声</p>
+            <a href="JavaScript:;">查看详情</a>
+          </li>
+          <li>
+            <img src="Timg/details/0b17673a6af2aae1e4795c627be2b22682df53ea.jpg" alt="">
+            <p>音乐家</p>
+            <a href="JavaScript:;">查看详情</a>
+          </li>
+          <li>
+            <img src="Timg/details/da4caa92adbb87aa7d0f582c4e0e0f4edefbf640.jpg" alt="">
+            <p>巧虎大飞船历险记</p>
+            <a href="JavaScript:;">查看详情</a>
+          </li> -->
+        </ul>
+      </div>
+      <div class="btn-left" onclick="btn_left()"></div>
+      <div class="btn-right" onclick="btn_right()"></div>
+    </div>
+  </div>
+  <!-- <script src="js/details.js"></script> -->
+  <script src="js/header.js"></script>
+  <script src="js/ajax.js"></script>
+  <script src="js/details.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>登录</title>
+  <link rel="stylesheet" href="css/login.css">
+  <style>
+  </style>
+</head>
+
+<body>
+  <div class="NM_head">
+    <div class="head_denglu">
+      <div class="head_sx">
+        <img src="Timg/index/logo_l.png" alt="">
+        <!-- <a class="NM_loog"></a> -->
+        <span class="NM_head_font">登录</span>
+      </div>
+      <div class="NM_head_right">
+        <span>还没有Triangle帐号</span>
+        <a href="register.html" class="NM_head_right_login">注册</a>
+      </div>
+    </div>
+  </div>
+  <div class="_body">
+    <!-- 自动登录弹出div遮罩层 -->
+    <div id="before_div">
+      <h3>正在自动跳转到主页...</h3>
+    </div>
+    <!--  -->
+    <div class="_body_center">
+      <img src="Timg/login/login-logo_30a0915.png" alt="">
+      <div class="_body_login">
+        <h3>登录Triangle</h3>
+        <p class="_body_login_phone">
+          <a href="javascript:;">
+            <img src="Timg/login/phone.png" alt="">
+            短信快捷登录
+          </a>
+        </p>
+        <span class="_body_login_use"></span>
+        <span class="_body_login_pwd"></span>
+        <!-- uname -->
+        <input type="text" name="uname" class="_body_login_input_1" placeholder="手机/邮箱/用户名/Triangle帐号" value=""
+          minlength="3" maxlength="16">
+        <div id="uname_msg">
+          <img src="Timg/login/comment-success_d740124.png" alt="">
+          <img src="Timg/login/comment-failure_bf6d740.png" alt="">
+        </div>
+        <!-- upwd -->
+        <input type="password" name="upwd" class="_body_login_input_2" placeholder="密码" value="" minlength="3"
+          maxlength="16">
+        <div id="upwd_msg">
+          <img src="Timg/login/comment-success_d740124.png" alt="">
+          <img src="Timg/login/comment-failure_bf6d740.png" alt="">
+        </div>
+        <!--  -->
+        <p class="_checkbox_font">
+          <input type="checkbox" id="_body_login_checkbox" checked:false>
+          <label for="_body_login_checkbox" id="_body_login_checkbox">下次自动登录</label>
+          <a href="javascript:;" class="_body_login_wenti">登录遇到问题</a>
+        </p>
+        <button class="btn" id="btnlog">登录</button>
+        <a href="javascript:;" class="qq_iogin" title="QQ账号"></a>
+        <a href="javascript:;" class="xin_lang" title="新浪微博"></a>
+      </div>
+    </div>
+  </div>
+  <div class="_footer">
+    <div class="footer_bottom">
+      <a href="javascript:;">关于Triangle</a>
+      <span>|</span>
+      <a href="javascript:;">常见问题</a>
+      <span>|</span>
+      <a href="javascript:;">违规投诉</a>
+      <span>|</span>
+      <a href="javascript:;">开放平台</a>
+      <span>|</span>
+      <a href="javascript:;">用户协议</a>
+      <span>|</span>
+      客服电话：
+      <span id="kefu">400-9216-666</span>
+      (每天9:00 - 22:00)
+    </div>
+    <div class="_copy">
+      <span class="copyright">©</span>
+      <span>2015</span>&nbsp;
+      <span>nuomi.com</span>&nbsp;&nbsp;
+      <a href="javascript:;">京ICP证030173号</a>&nbsp;&nbsp;
+      <span>京公网安备11010802014106号</span>
+    </div>
+  </div>
+  <div id="toast">即将跳转去主页...</div>
+  <div id="toast2">用户名或密码错误</div>
+  <script src="js/ajax.js"></script>
+  <script src="js/login.js"></script>
+  <!--  -->
+</body>
+
+</html>

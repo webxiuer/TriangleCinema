@@ -1,0 +1,358 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+ul {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+/*进程态度*/
+.body_margin {
+	width: 1210px;
+	margin: auto;
+}
+
+.title_div {
+	background-color: #f9f9f9;
+	margin-top: 30px;
+}
+
+.title_div>ul>li {
+	float: left;
+	width: 25%;
+	height: 40px;
+	font-size: 14px;
+	line-height: 40px;
+	text-align: center;
+	color: #666;
+}
+
+.title_div>ul>li:nth-child(2) {
+	color: #fc4984;
+}
+
+.title_div>ul::after {
+	display: block;
+	clear: both;
+	content: "";
+}
+
+/*座位挑选*/
+._select {
+	width: 900px;
+
+}
+
+._select>ul {
+	width: 900px;
+	margin-top: 50px;
+}
+
+._select>ul>li {
+	height: 28px;
+	line-height: 28px;
+}
+
+.row {
+	background: url(../Timg/order/seats_982f0fc.png)no-repeat;
+	background-position: 0px -1px;
+	float: left;
+	width: 28px;
+	height: 28px;
+	margin-right: 14px;
+}
+
+/* .row_active{
+    background:url(../Timg/order/seats_982f0fc.png)no-repeat;
+    background-position:20px 0px;  
+}*/
+.li_row {
+	height: 28px;
+	margin-bottom: 16px;
+	line-height: 28px
+}
+
+/*选座*/
+.seat {
+	width: 100%;
+	margin-top: 40px;
+}
+
+.seat_left {
+	background: #f9f9f9;
+	width: 902px;
+	float: left;
+}
+
+.seat_center {
+	text-align: -webkit-center;
+	overflow: auto;
+	position: relative;
+}
+
+.screen {
+	background: url(../Timg/order/bg_23e8202.png);
+	background-position: 3px 0px;
+	width: 642px;
+	height: 56px;
+	margin-top: 65px;
+	margin-left: 0px;
+
+}
+
+.screen+span {
+	position: absolute;
+	top: 95px;
+	left: 400px;
+	font-size: 14px;
+	color: #666;
+}
+
+.rows {
+	float: left;
+	text-align: center;
+	width: 24px;
+	padding: 42px 0;
+	border-radius: 12px;
+	background-color: #969696;
+}
+
+.seat_left::after {
+	clear: both;
+	content: "";
+	display: block;
+}
+
+.rows>ul>li {
+	height: 44px;
+	line-height: 44px;
+	text-align: center;
+	color: #fff;
+}
+
+.center_weiz {
+	width: 681px;
+	height: 762px;
+	overflow-x: auto;
+	overflow-y: hidden;
+	padding-bottom: 58px;
+	position: relative;
+}
+
+.center_weiz>._select {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+
+.seat_left_center {
+	width: 100%;
+	text-align: -webkit-center;
+	position: relative;
+}
+
+.message {
+	background: url(../Timg/order/no_order_3f875a1.png)no-repeat;
+	background-position: -5px -40px;
+	background-size: 200px;
+	position: absolute;
+	top: 200px;
+	left: 310px;
+	width: 200px;
+	height: 0px;
+	z-index: 3;
+	overflow: hidden;
+	transition: all .5s linear;
+}
+
+.message>.message_p {
+	margin-top: 40px;
+}
+
+.message>p {
+	font-family: "华文琥珀";
+	font-size: 26px;
+	color: #fc4984;
+	margin-left: 60px;
+	margin-top: 10px;
+	width: 150px;
+}
+
+#center_weiz_screen {
+	margin: 20px 0 0 0;
+	display: inline-block;
+	font-size: 14px;
+	color: #666;
+}
+
+/*电影详情 _seat_right*/
+.seat_right {
+	width: 278px;
+	float: right;
+}
+
+.ditalis_mover {
+	display: flex;
+}
+
+.ditalis_mover p:first-child~p {
+	height: 16px;
+	line-height: 16px;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	color: #999;
+	font-size: 13px;
+}
+
+.ditalis_mover>div {
+	margin-left: 20px;
+}
+
+.ditalis>a {
+	display: block;
+	width: 100%;
+	height: 40px;
+	font-size: 18px;
+	line-height: 40px;
+	text-align: center;
+	color: #fff;
+	background-color: #b7b7b7;
+}
+
+a.active {
+	background: #fc4984;
+}
+
+.ditalis_mover>img {
+	width: 100px;
+	height: 150px;
+}
+
+.ditalis_div {
+	background: url(../Timg/order/bg_920a972.gif)no-repeat;
+	background-position: 66px -29px;
+	width: 75px;
+	height: 25px;
+	margin: 0 0 10px 5px;
+	line-height: 23px;
+	text-align: center;
+}
+
+.ditalis_p {
+	background-image: url(../Timg/order/bg_920a972.gif);
+	background-repeat: no-repeat;
+	background-position: -1px 0px;
+	font-size: 14px;
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	height: 25px;
+	text-align: center;
+	padding: 1px 5px;
+}
+
+.ditalis_mover3,
+.ditalis_mover2 {
+	margin-top: 30px;
+}
+
+.ditalis_mover3 {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+}
+
+.ditalis_mover4>p,
+.ditalis_mover2>p {
+	color: #999;
+	font-size: 14px;
+	line-height: 26px;
+}
+
+.ditalis_mover2>p>span {
+	font-size: 15px;
+	color: #333;
+	font-style: normal;
+}
+
+.ditalis_mover3>p:first-child {
+	color: #999;
+	font-size: 13px;
+	margin-bottom: 15px;
+}
+
+.ditalis_mover3>p:last-child {
+	font-size: 13px;
+}
+
+.ditalis_mover4 {
+	margin: 30px 0 30px 0;
+}
+
+.ditalis_mover4 span {
+	color: #fc4984;
+	font-size: 13px;
+}
+
+/*座位标记*/
+.sign {
+	text-align: left;
+}
+
+.sign>ul {
+	background-image: url(../Timg/order/bg_23e8202.png);
+	background-position: 0px 24px;
+	width: 500px;
+	height: 25px;
+	margin: 20px 0 40px 110px;
+}
+
+.sign>ul>li {
+	float: left;
+	width: 118px;
+	height: 22px;
+	padding-left: 30px;
+	line-height: 22px;
+	text-align: left;
+	font-size: 14px;
+}
+
+/*底部解释*/
+.explain {
+	height: 250px;
+	padding: 25px 0;
+	text-align: left;
+	margin: 0 28px;
+}
+
+.explain>h4 {
+	font-size: 14px;
+	font-weight: 500;
+	color: #999;
+}
+
+.explain>p {
+	font-size: 13px;
+	color: #999;
+	line-height: 26px;
+}
+
+#toast {
+	color: #eee;
+	opacity: 0;
+	width: 240px;
+	height: 80px;
+	line-height: 80px;
+	text-align: center;
+	position: absolute;
+	top: 300px;
+	left: 40%;
+	border-radius: 10px;
+	background: #66666673;
+	transition: opacity 0.3s linear;
+}

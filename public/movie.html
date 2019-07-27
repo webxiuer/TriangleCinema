@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>电影</title>
+  <link rel="stylesheet" href="css/movie.css">
+  <!--  -->
+  <link rel="stylesheet" href="css/header.css">
+  <link rel="stylesheet" href="css/right.css">
+  <!-- <link rel="stylesheet" href="css/details.css"> -->
+  <style>
+  </style>
+</head>
+
+<body>
+  <!-- 请求来的头 -->
+  <div id="header_html"></div>
+  <!--  -->
+  <div class="_body">
+    <div class="introduce" id="intr">
+      <!-- <div>
+        <img src="Timg/details/cbb0ca9bf39bdf7d4a6bb8bd563e443eabd96d4a.jpg" alt="">
+      </div>
+      <div class="introduce_title"> 
+        <h4>扫毒2天地对决</h4>
+        <p>
+          <span></span>
+          <span>8.4</span>
+        </p>
+        <p>天地对决 一触即发</p>
+        <p>
+          导演：邱礼涛     主演：刘德华,古天乐,苗侨伟,林嘉欣,卫诗雅,周秀娜,张国强,林家栋,郑则仕,应采儿
+        </p>
+        <p>
+          中国香港 | 100分钟      2019-07-05上映
+        </p>
+        <p>
+          情：毒品市场维持四分天下的格局已久，但自从地藏与墨西哥大毒枭跨境合作扩展势力，再加上一连串黑吃黑的动作，毒界变得风声鹤唳。另一···
+            <span></span>
+        </p>
+         <p>
+          <a href="javascript:;" id="like"><img src="Timg/details/like.png" style="width:15px;">想看</a>
+         </p>
+      </div> -->
+    </div>
+    <!--date日期 -->
+    <div class="date_div">
+      <h4>选座购票</h4>
+      <div class="select_div">
+        <div class="date_div_ul">
+          <div>日期</div>
+          <ul id="date">
+            <!-- 动态生成 -->
+            <!-- <li><span>周日7月7日</span></li>
+            <li><span>周一7月8日</span></li>
+            <li><span>周一7月9日</span></li>
+            <li><span>周一7月10日</span></li>
+            <li><span>周一7月11日</span></li>
+            <li><span>周一7月12日</span></li>
+            <li><span>周一7月13日</span></li> -->
+          </ul>
+        </div>
+        <div class="date_div_ul">
+          <div>区域</div>
+          <ul>
+            <li><span>全部</span></li>
+            <li><span>行政区</span></li>
+            <li><span>地铁附近</span></li>
+          </ul>
+        </div>
+      </div>
+      <div class="cinema">
+        <ul>
+          <!-- <li>
+            <div class="cinema_div">
+              <span>英嘉星美影城（原星美金源IMAX店）</span><br>
+              <span>北京市海淀区远大路1号金源时代购物中心5层东首511</span>
+            </div>
+            <p>￥51起</p>
+            <a href="JavaScript:;">选座购票</a>
+          </li>
+          <li>
+            <div class="cinema_div">
+              <span>北京横店电影城(王府井店)</span><br>
+              <span>北京市东城区王府井大街253号王府井百货(北京市百货大楼)北馆8F</span>
+            </div>
+            <p>￥51起</p>
+            <a href="JavaScript:;">选座购票</a>
+          </li>
+          <li>
+            <div class="cinema_div">
+              <span>星美影商城（北京分钟寺店）</span><br>
+              <span>北京市丰台区南三环东路成寿寺路2号新业广场2层</span>
+            </div>
+            <p>￥51起</p>
+            <a href="JavaScript:;">选座购票</a>
+          </li>
+          <li>
+            <div class="cinema_div">
+              <span>北京耀莱成龙影城(五棵松店)</span><br>
+              <span>北京市海淀区复兴路69号卓展购物中心5层东侧</span>
+            </div>
+            <p>￥51起</p>
+            <a href="JavaScript:;">选座购票</a>
+          </li>
+          <li>
+            <div class="cinema_div">
+              <span>北京嘉华国际影城(学清路店)</span><br>
+              <span>北京市海淀区学清路甲8号圣熙8号购物中心5层西侧</span>
+            </div>
+            <p>￥51起</p>
+            <a href="JavaScript:;">选座购票</a>
+          </li>
+          <li>
+            <div class="cinema_div">
+              <span>天幕新彩云国际影城</span><br>
+              <span>海淀区北太平桥西侧中央新影集团1F</span>
+            </div>
+            <p>￥51起</p>
+            <a href="JavaScript:;">选座购票</a>
+          </li>
+          <li>
+            <div class="cinema_div">
+              <span>北京沃美影城(常营店)</span><br>
+              <span>北京市朝阳区朝阳北路17号华联常营购物中心西区4层(地铁6号线常营站B出口)</span>
+            </div>
+            <p>￥51起</p>
+            <a href="JavaScript:;">选座购票</a>
+          </li>
+          <li>
+            <div class="cinema_div">
+              <span>首都电影院(西单店)</span><br>
+              <span>北京市西城区西单北大街131号西单大悦城10层</span>
+            </div>
+            <p>￥51起</p>
+            <a href="JavaScript:;">选座购票</a>
+          </li> -->
+        </ul>
+      </div>
+      <div class="view_more" id="more"> 点击查看更多影院 &gt;</div>
+      <h4 class="font_h3">实时票房</h4>
+      <ul class="office_ul">
+        <li>
+          <p>2</p>
+          <p>实时票房排行</p>
+        </li>
+        <li>
+          <p>1107<i>万</i></p>
+          <p>实时票房</p>
+        </li>
+        <li>
+          <p>2.86<i>亿</i></p>
+          <p>实时总票房</p>
+        </li>
+      </ul>
+    </div>
+    <!-- 请求来的right -->
+  </div>
+  <!-- 动态添加 -->
+  <div id="right_list">
+    <!-- 请求来的right -->
+  </div>
+  <!-- <div id="index_left">
+    <h3>热门影院<a href="JavaScript:;">全部&gt;&gt;</a></h3>
+    <h4>当日票房排行榜</h4>
+    <ul class="index_left_ul">
+      <li>
+        <span>1.</span>
+         蜘蛛侠：英雄远征
+        <span>17326.6</span>
+        <div>
+          <a href="JavaScript:;">
+          <img src="Timg/details/a2b6ffe3ff69fcb3fe48032811f4b65ffd94be16.png" alt=""></a></div>
+      </li>
+      <li>
+        <span>2.</span>
+          千与千寻
+        <span>2727.6</span>
+        <div>
+          <a href="JavaScript:;">
+            <img src="Timg/details/e432f48be814a0f6691484f9b3baf23814c1276f.jpg" alt="">
+          </a>
+        </div>
+      </li>
+      <li>
+        <span>3.</span>
+        玩具总动员4
+        <span>265.3</span>
+        <div>
+          <a href="JavaScript:;">
+            <img src="Timg/details/15c9b124d08b82a36a510ed01fb3a733b2635e9c.jpg" alt="">
+          </a>
+        </div>
+      </li>
+      <li>
+        <span>4.</span>
+        最好的我们
+        <span>1501.1</span>
+        <div><a href=""><img src="Timg/details/a096398c822ec0c6c8c1fc3be17d384f870b0087.jpg" alt=""></a></div>
+      </li>
+      <li>
+        <span>5.</span>
+        绝杀慕尼黑
+        <span>249.3</span>
+        <div>
+          <a href="JavaScript:;">
+            <img src="Timg/details/5edbd1a20d9ec0a3c3a5c0c29d27acd687691655.jpg" alt="">
+          </a>
+        </div>
+      </li>
+      <li>
+        <span>6.</span>
+         哥斯拉2：怪兽之王
+        <span>160.5</span>
+        <div>
+          <a href="JavaScript:;">
+            <img src="Timg/details/54aa21de56d8355582b208e2331c52d9286b1625.jpg" alt="">
+          </a>
+        </div>
+      </li>
+      <li>
+        <span>7.</span>
+        碟仙
+        <span>154.4</span>
+        <div><a href="JavaScript:;">
+          <img src="Timg/details/374592529070c01582fb618258b4d8e623e549c5.jpg" alt="">
+        </a>
+        </div>
+      </li>
+      <li>
+        <span>8.</span>
+        黑衣人：全球通缉
+        <span>101.7</span>
+        <div>
+          <a href="JavaScript:;">
+            <img src="Timg/details/d15cd9552621f04970a8eddd18120992287a6d49.jpg" alt="">
+          </a>
+        </div>
+      </li>
+      <li>
+        <span>9.</span>
+        八子
+        <span>86.1</span>
+        <div>
+          <a href="JavaScript:;">
+          <img src="Timg/details/6437c90b700b6f4380be3f88a30ced8647761c82.jpg" alt="">
+          </a>
+        </div>
+      </li>
+      <li>
+        <span>10.</span>
+        追龙II
+        <span>52.3</span>
+        <div>
+          <a href="JavaScript">
+            <img src="Timg/details/4d627ae00985d3e3b1aa1889b5d9b673926b2db3.jpg" alt="">
+          </a>
+        </div>
+      </li>
+    </ul>
+  </div> -->
+  <!--  -->
+  <!-- <script src="js/details.js"></script> -->
+  <script src="js/header.js"></script>
+  <script src="js/ajax.js"></script>
+  <script src="js/movie.js"></script>
+</body>
+
+</html>
